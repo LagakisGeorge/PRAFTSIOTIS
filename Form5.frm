@@ -7,7 +7,6 @@ Begin VB.Form epist
    ClientTop       =   555
    ClientWidth     =   15240
    LinkTopic       =   "Form5"
-   LockControls    =   -1  'True
    MDIChild        =   -1  'True
    ScaleHeight     =   11010
    ScaleWidth      =   15240
@@ -59,7 +58,7 @@ Begin VB.Form epist
       List            =   "Form5.frx":0002
       TabIndex        =   3
       Top             =   2625
-      Width           =   8310
+      Width           =   9630
    End
    Begin VB.TextBox Text1 
       BeginProperty Font 
