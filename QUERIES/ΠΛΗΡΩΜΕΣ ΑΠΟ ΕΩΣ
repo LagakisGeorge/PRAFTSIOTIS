@@ -1,0 +1,1 @@
+select '@@@' as AA, CONVERT(CHAR(12),d1,3)  as [ÇÌ.ÁĞÏÓÔ],' *'+' '+c1+'  ' as [VOUCHER],'*'+c1+'*' as [barcode],'  '+epo as [ÏÍÏÌÁÔÅĞÙÍÕÌÏ],'*'+thl as [ÔÇËÅÖ.],str(n1,10,2)  as [ĞÏÓÏ],metaforika as [ÅËÔÁ],right(space(10)+str( n1-metaforika,10,2),10) as [PAID] , '* '+convert(char(10),d3,3) as [DATE]   from pel where d3>='@d1'  and d3<='@d2'   and  pliromi=1  

@@ -1,0 +1,1 @@
+select '@@@' as AA,convert(varchar, d1, 5)  as [ÇÌ.ÁĞÏÓÔ] , c1 as [ÁĞÏÄÅÉÊÔÉÊÏ],epo as [ÏÍÏÌÁÔÅĞÙÍÕÌÏ],die as [ÄÉÅÕÈÕÍÓÇ],polh as [ĞÏËÇ],tk as [TK],thl as [ÔÇËÅÖÙÍÏ],n1 as [ĞÏÓÏ],n2 as [KIL],metaforika as [ÌÅÔÁÖÏÑÉÊÁ],n1-metaforika as [ĞÏÓÏ ÁĞÏÄÏÓÇÓ] ,d3 as [ÇÌÅÑ.ĞËÇÑ] ,cpliromi from pel where    d1>='@d1'  and d1<='@d2'      order by polh

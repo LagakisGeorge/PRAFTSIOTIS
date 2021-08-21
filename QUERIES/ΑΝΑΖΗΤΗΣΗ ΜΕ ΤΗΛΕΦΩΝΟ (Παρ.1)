@@ -1,0 +1,1 @@
+select d1 as [глея.апост],epo as [омолатепымуло],die as [диеухумсг],thl as [тгкежымо],n1 as [посо],n1  from pel where  thl like '@c1%' and idapostolea=1

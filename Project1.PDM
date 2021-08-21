@@ -1,0 +1,202 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\salonika\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Exchange=Yes
+Text=Yes
+Jet 2.x=Yes
+Lotus=Yes
+Paradox=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+U2FXLS.DLL=
+U2FWORDW.DLL=
+U2FWKS.DLL=
+U2FTEXT.DLL=
+U2FSEPV.DLL=
+U2FRTF.DLL=
+U2FREC.DLL=
+U2FHTML.DLL=
+U2FDIF.DLL=
+U2FCR.DLL=
+U2DMAPI.DLL=
+CRXLAT32.DLL=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\WINDOWS\system32\MSEXCH35.DLL=
+D:\WINDOWS\system32\DBGRID32.OCX=
+D:\WINDOWS\system32\MSBIND.DLL=
+D:\Program Files\Common Files\System\ado\msado25.tlb=
+D:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+D:\WINDOWS\system32\MSRDO20.DLL=
+D:\WINDOWS\system32\crystl32.ocx=
+D:\WINDOWS\system32\MSDATGRD.OCX=
+D:\WINDOWS\system32\DBLIST32.OCX=
+D:\WINDOWS\system32\MSCOMCT2.OCX=
+D:\WINDOWS\system32\MSADODC.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\salonika\EIS.EXE=Yes
+D:\WINDOWS\system32\MSVBVM60.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\MSADODC.OCX=Yes
+D:\WINDOWS\system32\msstdfmt.dll=Yes
+D:\WINDOWS\system32\MSBIND.DLL=Yes
+D:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+D:\WINDOWS\system32\MSDATLST.OCX=Yes
+D:\WINDOWS\system32\DBLIST32.OCX=Yes
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+D:\WINDOWS\system32\msjet35.dll=Yes
+D:\WINDOWS\system32\MSJTER35.DLL=Yes
+D:\WINDOWS\system32\MSJINT35.DLL=Yes
+D:\WINDOWS\system32\vbajet32.dll=Yes
+D:\WINDOWS\system32\expsrv.dll=Yes
+D:\WINDOWS\system32\MSRD2X35.DLL=Yes
+D:\WINDOWS\system32\MSREPL35.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+D:\WINDOWS\system32\VB5DB.DLL=Yes
+D:\WINDOWS\system32\MSDATGRD.OCX=Yes
+D:\WINDOWS\system32\DBGRID32.OCX=Yes
+D:\WINDOWS\system32\crystl32.ocx=Yes
+D:\WINDOWS\system32\crpe32.dll=Yes
+D:\WINDOWS\system32\implode.dll=Yes
+D:\WINDOWS\system32\pg32.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=Yes
+D:\WINDOWS\system32\p2bbnd.dll=Yes
+D:\WINDOWS\system32\p2bdao.dll=Yes
+D:\WINDOWS\system32\p2ctdao.dll=Yes
+D:\WINDOWS\system32\p2irdao.dll=Yes
+D:\WINDOWS\system32\p2sodbc.dll=Yes
+D:\WINDOWS\system32\u2ddisk.dll=Yes
+D:\WINDOWS\system32\MSEXCL35.DLL=Yes
+D:\WINDOWS\system32\MSEXCH35.DLL=Yes
+D:\WINDOWS\system32\MSLTUS35.DLL=Yes
+D:\WINDOWS\system32\MSRDO20.DLL=Yes
+D:\WINDOWS\system32\RDOCURS.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\WINDOWS\system32\MSPDOX35.DLL=Yes
+D:\WINDOWS\system32\MSTEXT35.DLL=Yes
+D:\WINDOWS\system32\MSXBSE35.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\salonika\EIS.EXE=$(AppPath)
+D:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+D:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+D:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+D:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+D:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+D:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+D:\WINDOWS\system32\msjet35.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+D:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+D:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+D:\WINDOWS\system32\crystl32.ocx=$(WinSysPath)
+D:\WINDOWS\system32\crpe32.dll=$(WinSysPath)
+D:\WINDOWS\system32\implode.dll=$(WinSysPath)
+D:\WINDOWS\system32\pg32.dll=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\p2bbnd.dll=$(WinSysPath)
+D:\WINDOWS\system32\p2bdao.dll=$(WinSysPath)
+D:\WINDOWS\system32\p2ctdao.dll=$(WinSysPath)
+D:\WINDOWS\system32\p2irdao.dll=$(WinSysPath)
+D:\WINDOWS\system32\p2sodbc.dll=$(WinSysPath)
+D:\WINDOWS\system32\u2ddisk.dll=$(WinPath)\Crystal
+D:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+D:\WINDOWS\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+D:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\WINDOWS\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\salonika\EIS.EXE=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\salonika\Package
+ProjectFolder=C:\salonika
+ServerSideCab=
+File1=C:\salonika\Package\setup.exe
+File2=C:\salonika\Package\Setup.Lst
+File3=C:\salonika\Package\EIS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Project1
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Project1]
+Icon1=EIS.EXE
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1

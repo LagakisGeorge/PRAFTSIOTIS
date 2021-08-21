@@ -1,0 +1,1 @@
+select '@@@' as AA,d1 as [ÇÌ.ÁĞÏÓÔ] , c1 as [ÁĞÏÄÅÉÊÔÉÊÏ],polh as [ĞÏËÇ],epo as [ÏÍÏÌÁÔÅĞÙÍÕÌÏ],die as [ÄÉÅÕÈÕÍÓÇ],'*'+thl as [ÔÇËÅÖÙÍÏ],n1 as [ĞÏÓÏ],metaforika as [ÌÅÔÁÖÏÑÉÊÁ],n1-metaforika as [ĞÏÓÏ ÁĞÏÄÏÓÇÓ] ,d3 as [ÇÌÅÑ.ĞËÇÑ] ,cpliromi from pel where d1>='@d1'  and d1<='@d2'   and cpliromi is null   and polh like '@c1%'   and idapostolea=1  order by polh
